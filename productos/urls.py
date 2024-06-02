@@ -4,4 +4,5 @@ from . import views
 urlpatterns = [
     # URLs de vistas normales
     path('', views.listar_productos, name='listar_productos'),
+    path('agregar/', views.agregar_producto, name='agregar_producto'),
 ]
